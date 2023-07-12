@@ -1,6 +1,3 @@
-<div id="top" align="center">
-<img src=misc/taptap.png width=150 />
-
 CT-BERT: Learning Better Tabular Representations Through Cross-Table Pre-training
 -----------------------------
 <h3> |<a href="https://arxiv.org/abs/2307.04308"> Paper </a> | 
