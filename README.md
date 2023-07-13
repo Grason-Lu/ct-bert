@@ -1,4 +1,4 @@
-![logo](./Image/logo.png)
+<divalign=center>![logo](./Image/logo.png)
 -----------------------------
 <h3> |<a href="https://arxiv.org/abs/2307.04308"> Paper </a> | 
 <a href="run.sh"> Example </a> |  
