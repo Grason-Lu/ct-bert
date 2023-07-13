@@ -1,4 +1,4 @@
-CT-BERT: Learning Better Tabular Representations Through Cross-Table Pre-training
+![logo](./Image/logo.png)
 -----------------------------
 <h3> |<a href="https://arxiv.org/abs/2307.04308"> Paper </a> | 
 <a href="run.sh"> Example </a> |  
@@ -24,7 +24,7 @@ The [run.sh](https://github.com/Chao-Ye/paperid-437/blob/main/run.sh) file demon
 
 ### Cross-table Pre-training Dataset (our TabPretNET) 
 
-We have uploaded our pre-training corpus to to Google Cloud Drive. You can download it from [here](https://drive.google.com/file/d/1zDoH-trPMTGtkpefErozQMulgqioB9Y2/view) and use this [code](https://github.com/Chao-Ye/paperid-437/blob/main/CTBert/load_pretrain_data.py) to load all the datasets. We will upload to the Huggingface dataset in the next few days.
+We have uploaded our pre-training corpus to to Google Cloud Drive. You can download it from [here](https://drive.google.com/file/d/1zDoH-trPMTGtkpefErozQMulgqioB9Y2/view) and use this [code](https://github.com/Chao-Ye/paperid-437/blob/main/CTBert/load_pretrain_data.py) to load all the datasets. We will soon be open-sourcing our cross-table pre-training models (CT-BERT-v1) and datasets (TabPretNET) on Huggingface.
 
 ### Downstream Task Datasets Source
 Note that we are careful to guarantee that the tabular datasets used in pre-training and the downstream benchmark datasets are non-overlapping, so there is no data leakage issue.  
