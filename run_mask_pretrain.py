@@ -42,7 +42,7 @@ def log_config(args):
     logging.getLogger().addHandler(fh)
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Transtab')
+    parser = argparse.ArgumentParser(description='CT-BERT-mask-pretrain')
     parser.add_argument('--data', type=str, default="pretrain", help='task')
     parser.add_argument("--local_rank", type=int, help="")
     args = parser.parse_args()

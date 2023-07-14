@@ -24,7 +24,7 @@ CTBert.random_seed(42)
 print('=========================>start running main')
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='TableGPT')
+    parser = argparse.ArgumentParser(description='CT-BERT-mask-pretrain-ds')
     parser.add_argument('--local_rank',
                         type=int,
                         default=-1,

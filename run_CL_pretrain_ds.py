@@ -41,7 +41,7 @@ def log_config(args):
     logging.getLogger().addHandler(fh)
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='TableGPT')
+    parser = argparse.ArgumentParser(description='CT-BERT-supCL-pretrain')
     parser.add_argument('--local_rank',
                         type=int,
                         default=0,

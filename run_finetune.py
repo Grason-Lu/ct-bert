@@ -44,7 +44,7 @@ def log_config(args):
     logging.getLogger().addHandler(fh)
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Catch')
+    parser = argparse.ArgumentParser(description='CT-BERT-finetune')
     parser.add_argument('--data', type=str, default="finetune", help='task')
     args = parser.parse_args()
     return args

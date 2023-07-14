@@ -44,7 +44,7 @@ def log_config(args):
     logging.getLogger().addHandler(fh)
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Catch')
+    parser = argparse.ArgumentParser(description='CT-BERT-sup-scratch')
     parser.add_argument('--log_name', type=str, default="Sup", help='task')
     parser.add_argument('--data_info', type=str, default='/home/gslu/task_data/task_data.csv', help='data info')
     parser.add_argument('--dataset', type=str, default='/home/gslu/task_data/data/', help='data_file')
