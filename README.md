@@ -2,7 +2,8 @@
 <img src=./Image/logo.png />
 </div>
 
-<h3> |<a href="https://arxiv.org/abs/2307.04308"> Paper </a> | 
+<h3 align="center"> 
+<a href="https://arxiv.org/abs/2307.04308"> Paper </a> | 
 <a href="run.sh"> Example </a> |  
 <a href="https://drive.google.com/file/d/1zDoH-trPMTGtkpefErozQMulgqioB9Y2/view"> 😀 Pre-trained Model </a> |
 <a href="https://drive.google.com/file/d/1-2m1tyejUV5_bZduqZw1ZXS1BUSkhzVl/view?usp=drive_link"> 📕 Pre-training Dataset </a>
